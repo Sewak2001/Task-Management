@@ -26,7 +26,11 @@ SECRET_KEY = 'z7b^@4elnd7sinij4w*0*+dgdp#a)dgabs*71!k#nv+x7ids+m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "task-management-pl60.onrender.com",
+    "127.0.0.1",
+]
+
 
 
 # Application definition
